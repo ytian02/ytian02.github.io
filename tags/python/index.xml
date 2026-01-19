@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python - 标签 - Kanat Space</title><link>https://ytian02.github.io/tags/python/</link><description>Kanat Space</description><generator>Hugo 0.154.5 &amp; FixIt v0.4.2-20260109063229-50d27e0e</generator><language>zh-CN</language><managingEditor>ytian02@outlook.com (ty)</managingEditor><webMaster>ytian02@outlook.com (ty)</webMaster><lastBuildDate>Mon, 19 Jan 2026 15:09:15 +0800</lastBuildDate><atom:link href="https://ytian02.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Environment Settings</title><link>https://ytian02.github.io/posts/environment-settings/</link><pubDate>Mon, 19 Jan 2026 15:09:15 +0800</pubDate><author>ytian02@outlook.com (ty)</author><guid>https://ytian02.github.io/posts/environment-settings/</guid><category domain="https://ytian02.github.io/categories/others/">Others</category><description>&lt;h2 class="heading-element" id="hands-on-llms"&gt;&lt;span&gt;Hands-on-LLMs&lt;/span&gt;
+ &lt;a href="#hands-on-llms" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;conda create -n rl4llm python=3.10
+conda activate rl4llm
+pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+pip install transformers
+pip install pandas matplotlib scikit-learn tqdm ipykernel 
+python -m ipykernel install --user --name rl4llm --display-name &amp;#34;rl4llm&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;h2 class="heading-element" id="drl4long-termengagement"&gt;&lt;span&gt;DRL4Long-termEngagement&lt;/span&gt;
+ &lt;a href="#drl4long-termengagement" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;conda create -n DRL4LE python=3.9.13
+conda activate DRL4LE
+pip install torch==2.3.0 --index-url https://download.pytorch.org/whl/cu121
+pip install pandas matplotlib scikit-learn tqdm ipykernel torchtest wordcloud svglib reportlab
+python -m ipykernel install --user --name DRL4LE --display-name &amp;#34;DRL4LE&amp;#34;
+pip install numpy==1.24.3&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>
